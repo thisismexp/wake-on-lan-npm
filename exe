@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const wakeOnLan = require('./index.js');
+const path = require('path');
+
+process.title = path.basename(__filename);
+
+if (process.argv.length !== 3) {
+  console.log(`Usage: ./${process.title} & MAC Address :)`);
+  process.exit(1);
+}
+
+const adr = process.argv[2];
+wakeOnLan.send(adr, null, (error) => {
+  if (error) {
+    console.log(`Error: ${error}`);
+  } else {
+    console.log('finished.. :)');
+  }
+});

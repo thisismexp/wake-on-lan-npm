@@ -1,0 +1,23 @@
+{
+  "name": "wake-on-lan",
+  "version": "1.0.0",
+  "description": "A simple module, creating and sending a Wake On Lan UDP-Packet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisismexp/wake-on-lan-npm.git"
+  },  
+  "bugs": {
+    "url": "https://github.com/thisismexp/wake-on-lan-npm/issues"
+  },
+  "keywords": ["WOL", "Wake On Lan"],
+  "author": "thisismexp",
+  "license": "ISC",
+  "dependencies": {
+    "is-ip": "^2.0.0",
+    "is-mac": "^1.0.1"
+  }
+}
