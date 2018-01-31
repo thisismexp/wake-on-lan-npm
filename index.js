@@ -40,7 +40,7 @@ exports.getMagicPacket = (mac) => {
  */
 exports.send = (macAddress, opt, callback) => {
   const options = opt || {};
-  const destination = options.destination || '192.168.0.3';//'255.255.255.255';
+  const destination = options.destination || '255.255.255.255';
   let repetition = options.repetition || 5;
   const wait = options.wait || 150;
   let socket;
