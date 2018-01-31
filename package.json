@@ -1,5 +1,5 @@
 {
-  "name": "wake-on-lan",
+  "name": "wake-on-lan-node",
   "version": "1.0.0",
   "description": "A simple module, creating and sending a Wake On Lan UDP-Packet",
   "main": "index.js",
@@ -9,11 +9,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/thisismexp/wake-on-lan-npm.git"
-  },  
+  },
   "bugs": {
     "url": "https://github.com/thisismexp/wake-on-lan-npm/issues"
   },
-  "keywords": ["WOL", "Wake On Lan"],
+  "keywords": [
+    "WOL",
+    "Wake On Lan"
+  ],
   "author": "thisismexp",
   "license": "ISC",
   "dependencies": {
